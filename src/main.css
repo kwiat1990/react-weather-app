@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html,
+  body,
+  #root {
+    @apply min-h-full h-full;
+  }
+
+  #root {
+    @apply flex flex-col;
+  }
+
+  body {
+    @apply bg-gray-200;
+  }
+
+  main {
+    @apply flex-1;
+  }
+
+  h1 {
+    @apply text-center;
+  }
+
+  button {
+    @apply align-middle;
+  }
+
+  input {
+  }
+}
+
+@layer components {
+  .button {
+    @apply text-white py-2 px-4 bg-blue-700 rounded-xl hover:bg-blue-900 shadow-lg;
+  }
+}
