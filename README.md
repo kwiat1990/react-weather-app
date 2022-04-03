@@ -11,4 +11,3 @@ The source code on Github can be seen [here](https://github.com/kwiat1990/react-
 - [React (with hooks)](https://reactjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Tailwind (v3)](https://getbootstrap.com/)
-- [Ionic Icons](https://ionic.io/ionicons)
